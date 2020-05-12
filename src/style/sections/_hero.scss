@@ -1,4 +1,7 @@
 #hero {
+  background: url("/src/assets/code.jpg");
+  background-position: center;
+  background-size: cover;
   min-height: 100vh;
   height: 100vh;
   display: flex;
@@ -14,9 +17,7 @@
   right: 0;
   z-index: -1;
 
-  background: url("/src/assets/code.jpg");
-  background-position: center;
-  background-size: cover;
+
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
