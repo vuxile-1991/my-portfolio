@@ -2,7 +2,7 @@ import initTilt from './js/tilt';
 import initSr from './js/sr';
 
 import './style/main.scss';
-import MyResume from "/src/assets/vukasin_milekic_resume.pdf";
+import MyResume from "./assets/vukasin_milekic_resume.pdf";
 
 $('a[href^="#"]').on('click', function(event) {
   var target = $(this.getAttribute('href'));
