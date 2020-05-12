@@ -1,7 +1,8 @@
 import initTilt from './js/tilt';
 import initSr from './js/sr';
-import MyResume from './assets/vukasin_milekic_resume.pdf'
+
 import './style/main.scss';
+import MyResume from '/src/assets/vukasin_milekic_resume.pdf';
 
 $('a[href^="#"]').on('click', function(event) {
   var target = $(this.getAttribute('href'));
@@ -25,6 +26,6 @@ function addResume(MyResume){
   }
 }
 
-addResume();
+addResume();  
 initSr();
 initTilt();
