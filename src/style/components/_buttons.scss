@@ -28,7 +28,7 @@
   border-image: linear-gradient(
     135deg,
     $white-color 100%,
-    $secondary-color 100%
+    $secondary-color 0%
   );
   border-image-slice: 1;
   @include supportIE11() {
