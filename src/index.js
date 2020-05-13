@@ -1,8 +1,7 @@
 import initTilt from './js/tilt';
 import initSr from './js/sr';
-
+import myResume from './assets/vukasin_milekic_resume.pdf';
 import './style/main.scss';
-import MyResume from "./assets/vukasin_milekic_resume.pdf";
 
 function addResume(MyResume){
   const elements = document.getElementsByClassName('.cta-btn--resume');
@@ -26,8 +25,6 @@ $('a[href^="#"]').on('click', function(event) {
   }
 });
 
-
-
-addResume();  
+addResume();
 initSr();
 initTilt();
