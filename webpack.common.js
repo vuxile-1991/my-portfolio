@@ -18,6 +18,7 @@ module.exports = {
             options: {
               name: '[name].[ext]', //removed [hash]
               outputPath: 'assets'
+              esModule: false
             },
           },
         ],
