@@ -8,22 +8,21 @@ module.exports = {
     rules: [
       {
         test: /\.html$/,
-        use: ["html-loader"]
+        use: ['html-loader']
       },
       {
         test: /\.(jpg|jpeg|png|gif|svg|pdf)$/,
         use: [
           {
-            loader: "file-loader",
+            loader: 'file-loader',
             options: {
-              name: "[name].[hash].[ext]",
-              outputPath: "assets",
-              esModule: false
-            }
-          }
-        ]
-      }
-    ]
+              name: '[name].[ext]', //removed [hash]
+              outputPath: 'assets'
+            },
+          },
+        ],
+      },
+    ],
   },
   // This config allows to use jQuery $ sign
   plugins: [
